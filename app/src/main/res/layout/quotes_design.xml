@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagebackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/back1"/>
+
+        <TextView
+            android:id="@+id/textquote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="आपके विचार आपके जीवन का निर्माण करते हैं. यहाँ संग्रह किये गए महान विचारकों के हज़ारों प्रेरक कथन आपके जीवन में एक सकारात्मक बदलाव ला सकते हैं."
+            android:textColor="#04A8F8"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
